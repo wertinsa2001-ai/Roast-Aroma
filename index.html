@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roast & Aroma — Кофейня у дома</title>
+    <meta name="description" content="Уютная кофейня с собственной обжаркой. Свежий кофе, выпечка и завтраки. Заходите погреться.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">☕</span>
+                <span class="logo-text">Roast & Aroma</span>
+            </a>
+            
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#menu" class="nav-link">Меню</a></li>
+                    <li><a href="#about" class="nav-link">О нас</a></li>
+                    <li><a href="#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#contacts" class="btn btn-primary">Найти нас</a>
+                <button class="burger" id="burger" aria-label="Меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-badge">Свежая обжарка каждый день</span>
+                    <h1 class="hero-title">Начни утро<br>с правильного кофе</h1>
+                    <p class="hero-subtitle">Уютная кофейня в центре города. Авторские напитки, хрустящие круассаны и атмосфера, в которую хочется возвращаться.</p>
+                    <div class="hero-actions">
+                        <a href="#menu" class="btn btn-large btn-primary">Смотреть меню</a>
+                        <a href="#contacts" class="btn btn-large btn-outline">Как добраться</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="menu" id="menu">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Наше меню</h2>
+                    <p class="section-subtitle">Готовим с любовью из свежих зёрен и натуральных продуктов.</p>
+                </div>
+                
+                <div class="menu-grid">
+                    <article class="menu-card reveal">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Капучино">
+                        </div>
+                        <div class="menu-info">
+                            <h3 class="menu-title">Капучино</h3>
+                            <p class="menu-desc">Классика с плотной молочной пенкой. Идеальный баланс.</p>
+                            <span class="menu-price">250 ₽</span>
+                        </div>
+                    </article>
+
+                    <article class="menu-card reveal">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Латте">
+                        </div>
+                        <div class="menu-info">
+                            <h3 class="menu-title">Латте</h3>
+                            <p class="menu-desc">Мягкий вкус, много молока. Согревает в любую погоду.</p>
+                            <span class="menu-price">280 ₽</span>
+                        </div>
+                    </article>
+
+                    <article class="menu-card reveal">
+                        <div class="menu-image">
+                            <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Круассан">
+                        </div>
+                        <div class="menu-info">
+                            <h3 class="menu-title">Круассан с миндалём</h3>
+                            <p class="menu-desc">Хрустящая корочка, нежная начинка. Пекём сами каждое утро.</p>
+                            <span class="menu-price">180 ₽</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container about-container reveal">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Интерьер кофейни">
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">Место, где тепло</h2>
+                    <p>Мы открылись, чтобы у каждого была точка притяжения. Место, где можно поработать, встретиться с друзьями или просто помолчать с чашкой кофе.</p>
+                    <p>Наши бариста знают своё дело, а пекари начинают работу в 5 утра, чтобы к вашему приходу всё было свежим.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-num">5+</span>
+                            <span class="stat-text">Лет работаем</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">100%</span>
+                            <span class="stat-text">Свежая обжарка</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacts Section -->
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="contacts-wrapper reveal">
+                    <div class="contacts-info">
+                        <h2 class="section-title">Ждём вас в гости</h2>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <p>г. Москва, ул. Кофейная, 15</p>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🕒</span>
+                            <p>Пн-Вс: с 8:00 до 22:00</p>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <p>+7 (999) 123-45-67</p>
+                        </div>
+                        <a href="#" class="btn btn-primary" style="margin-top: 20px;">Заказать столик</a>
+                    </div>
+                    <div class="contacts-map">
+                        <!-- Заглушка под карту -->
+                        <div class="map-placeholder">
+                            <span>Здесь будет Яндекс.Карта</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="footer-copy">&copy; 2026 Roast & Aroma. Все права защищены.</p>
+            <div class="footer-socials">
+                <a href="#">Telegram</a>
+                <a href="#">VK</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
